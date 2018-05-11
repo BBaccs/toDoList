@@ -22,7 +22,7 @@ $('ul').on('click', 'span', function(event){
   		//create a new li and add to ul
   	 	$("ul").append("<li><span><i class ='fa fa-trash'></span></i> " + newToDoText + "</li>");
   	}
-  })
+  });
 
  
 //plus sign functionality
